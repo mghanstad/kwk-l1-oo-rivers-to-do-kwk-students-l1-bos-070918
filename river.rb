@@ -7,13 +7,11 @@ class River
     @name = name
   end
   def flood
-    dischage = :discharge
-    discharge * 1.3
+    @discharge = @discharge * 1.3
   end 
   
   def dry_up
-    discharge = :discharge
-    discharge * 0.5
+    @discharge = @discharge * 0.5
   end  
 end
   
