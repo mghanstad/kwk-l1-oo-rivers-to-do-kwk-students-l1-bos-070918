@@ -8,7 +8,7 @@ class River
   end
   def flood
     dischage = :discharge
-    discharge * 1.30
+    discharge * 1.3
   end 
   
   def dry_up
