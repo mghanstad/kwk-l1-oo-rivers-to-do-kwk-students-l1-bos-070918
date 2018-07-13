@@ -10,7 +10,7 @@ class River
   end 
   
   def dry_up
-    discharge * .5
+    discharge * .50
   end  
 end
   
